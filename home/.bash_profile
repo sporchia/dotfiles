@@ -3,8 +3,6 @@ export EDITOR="vim"
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export TERM=xterm-color
 
-homeshick --quiet refresh
-
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
@@ -19,3 +17,5 @@ fi
 
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 if which phpenv > /dev/null; then eval "$(phpenv init -)"; fi
+
+homeshick --quiet refresh

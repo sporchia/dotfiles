@@ -1,0 +1,18 @@
+[user]
+	name = Nick Whitt
+	email = nick.whitt@gmail.com
+[core]
+	excludesfile = /Users/nwhitt/.gitignore
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log -p
+	last = log -1 HEAD --stat
+        info = !cat .git/config
+[color]
+	ui = true
+[push]
+	default = simple

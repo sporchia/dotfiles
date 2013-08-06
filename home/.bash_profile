@@ -2,6 +2,7 @@ export LANG="en_US.UTF-8"
 export EDITOR="vim"
 export LSCOLORS=gxfxcxdxbxegedabagacad
 export TERM=xterm-color
+export PATH=/usr/local/bin:$PATH
 
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases

@@ -35,7 +35,7 @@ git_prompt ()
         return 0
     fi
     GIT_HEAD=`cat $GIT_DIR/HEAD`
-    GIT_BRANCH=${GIT_HEAD##*/}
+    GIT_BRANCH=${GIT_HEAD##*heads/}
     if [ ${#GIT_BRANCH} -eq 40 ]; then
         GIT_BRANCH="(no branch)"
     fi
